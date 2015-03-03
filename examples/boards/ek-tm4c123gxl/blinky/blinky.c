@@ -22,6 +22,9 @@ void ConfigurarTimer(uint32_t load);
 int a = 0;
 
 int main(void) {
+  
+  
+  
         // Configurar el reloj a 40MHz
 	SysCtlClockSet(SYSCTL_OSC_MAIN | SYSCTL_XTAL_16MHZ | SYSCTL_USE_PLL | SYSCTL_SYSDIV_5);
   
